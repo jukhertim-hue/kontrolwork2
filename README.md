@@ -66,6 +66,8 @@ bid (хранится в Session storage)
 
 Задание 4
 Использованный script:
-///<a href="javascript:alert('XSS');">Click me</a>///
+<img width="357" height="17" alt="image" src="https://github.com/user-attachments/assets/0896b5a3-b311-46f9-b28d-fb05ed3a0464" />
+
+<a href="javascript:alert('XSS');">Click me</a>
 Скриншот:
 <img width="1919" height="161" alt="image" src="https://github.com/user-attachments/assets/60274a83-90c3-4410-a96a-0922d8687437" />

@@ -6,11 +6,13 @@
 Login: ' or 1=1;--               
 Password: 321
 Скриншот:
+
 <img width="497" height="582" alt="Screenshot 2025-12-18 135852" src="https://github.com/user-attachments/assets/4a7eada9-41b9-487d-a701-bd8006e72ae1" />
 
 Пользователь: 
 Удалось войти как: admin@juice-sh.op
-Скриншот:<img width="334" height="286" alt="image" src="https://github.com/user-attachments/assets/c4fa2418-c6c4-4ef0-afe4-d1adf3218a9f" />
+Скриншот:
+<img width="334" height="286" alt="image" src="https://github.com/user-attachments/assets/c4fa2418-c6c4-4ef0-afe4-d1adf3218a9f" />
 
 Почему удалось войти:
 Удалось войти в админ‑аккаунт, потому что форма логина уязвима к SQL‑инъекции: введённая строка попала в SQL‑запрос без параметризации, изменила его логику на «условие всегда истинно» и часть проверки пароля фактически перестала учитываться.
@@ -22,7 +24,8 @@ admin@juice-sh.op
 Cookie: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiJoaSIsImVtYWlsIjoiYWRtaW5AanVpY2Utc2gub3AiLCJwYXNzd29yZCI6IjAxOTIwMjNhN2JiZDczMjUwNTE2ZjA2OWRmMThiNTAwIiwicm9sZSI6ImFkbWluIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6IiIsInByb2ZpbGVJbWFnZSI6ImFzc2V0cy9wdWJsaWMvaW1hZ2VzL3VwbG9hZHMvZGVmYXVsdEFkbWluLnBuZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyNS0xMi0xOCAxMDoxOToyNi45MTAgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNS0xMi0xOCAxMDozMzoyNi41NzcgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzY2MDU2NTg5fQ.qS_USkSm0k8BGLX6KKddKkYT_RDM1jvSpGLqMhQXthYv_8vjxdiM9IewLKoXJl8v2PTnd4oTmlWG2OOSYcaVQFC_gU8BmZprl5ruTPm5lmExnX5Nuk1XladCn3QJxpH1Oa1aT3u0XOidGKGjFRuS4CMlaIb6e3jCwvX2aJjAdF0
 Хэш пароля:           
 0192023a7bbd73250516f069df18b500
-Скриншотs:<img width="906" height="756" alt="image" src="https://github.com/user-attachments/assets/7b3967cc-87b6-4546-a0fc-fc7132cfb221" />
+Скриншотs:
+<img width="906" height="756" alt="image" src="https://github.com/user-attachments/assets/7b3967cc-87b6-4546-a0fc-fc7132cfb221" />
 <img width="612" height="616" alt="image" src="https://github.com/user-attachments/assets/e1490195-1322-46c9-bda7-08eb93aed003" />
 <img width="785" height="66" alt="image" src="https://github.com/user-attachments/assets/9724a9e6-75de-4601-b7d0-5099422245e4" />
 
@@ -63,5 +66,6 @@ bid (хранится в Session storage)
 
 Задание 4
 Использованный script:
-<a href="javascript:alert('XSS');">Click me</a>
-Скриншот:<img width="1919" height="161" alt="image" src="https://github.com/user-attachments/assets/60274a83-90c3-4410-a96a-0922d8687437" />
+///<a href="javascript:alert('XSS');">Click me</a>///
+Скриншот:
+<img width="1919" height="161" alt="image" src="https://github.com/user-attachments/assets/60274a83-90c3-4410-a96a-0922d8687437" />
